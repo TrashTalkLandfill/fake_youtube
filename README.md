@@ -1,0 +1,1 @@
+This website is supposed to look like a generic Youtube player page, but it doesn't do anything except play the main video.

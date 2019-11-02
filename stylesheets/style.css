@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.header-bar {
+  position: fixed;
+  height: 56px;
+  width: 100%;
+  background-color: green;
+}
+
+.left-column {
+  margin-top: 56px;
+  width: 67%;
+  height: 100%;
+  min-height: 1032px;
+  background-color: blue;
+  float: left;
+}
+
+.right-column {
+  margin-top: 56px;
+  width: 33%;
+  min-height: 1032px;
+  background-color: red;
+  float: right;
+}
+
+.video-display {
+  width: 100%;
+  height: 482px;
+  background-color: orange;
+}
+
+.creator-info {
+  width: 100%;
+  height: 185px;
+  background-color: purple;
+}
+
+.comments {
+  width: 100%;
+  height: 365px;
+  background-color: yellow;
+}
+
+.suggest-head {
+  width: 100%;
+  height: 60px;
+  background-color: fuchsia;
+}
+
+.thumbnails {
+  width: 50%;
+  height: 940px;
+  background-color: teal;
+  float: left;
+}
+
+.thumb-descrips {
+  width: 50%;
+  height: 940px;
+  background-color: navy;
+  float: right;
+}
+
+.left-header-buttons {
+  height: 100%;
+  width: 23%;
+  float: left;
+}
+
+.three-bar-thingy {
+  height: 100%;
+  width: 20%;
+  background-color: grey;
+  display: inline-block;
+  margin-left: 30px;
+  float: left;
+}
+
+.youtube-logo-button {
+  height: 100%;
+  width: 67%;
+  background-color: black;
+  float: left;
+}
+
+.search-bar {
+  height: 100%;
+  width: 57%;
+  float: left;
+  background-color: seashell;
+}
+
+.right-header-buttons {
+  height: 100%;
+  width: 20%;
+  float: right;
+  background-color: palegreen;
+}
+
+.video-player {
+  margin-left: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+}
+
+.video-details {
+  margin-left: 24px;
+  width: 641px;
+  height: 93px;
+  background-color: brown;
+}
+
+.channel-info {
+  margin-left: 24px;
+  padding-top: 23px;
+  width: 641px;
+  height: 38px;
+  background-color: turquoise;
+}
+
+.channel-text {
+  margin-left: 24px;
+  padding-top: 25px;
+  width: 641px;
+  height: 124px;
+  background-color: darkred;
+}
