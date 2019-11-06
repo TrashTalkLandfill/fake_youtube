@@ -267,7 +267,7 @@ table {
   margin-left: 24px;
   padding-top: 16px;
   width: 575px;
-  height: 107px;
+  height: 104px;
   padding-left: 66px;
   border-bottom: 1px solid rgb(204, 204, 204);
 }
@@ -294,15 +294,66 @@ table {
 .comments {
   width: 100%;
   height: 637px;
-  background-color: yellow;
+
 }
+
+
 
 .comment-interface{
   width: 641px;
-  padding: 24px 0 32px;
+  padding-top: 17px;
   margin-left: 24px;
-  height: 87px;
-  background-color: blueviolet;
+  height: 119px;
+}
+
+.comment-stats {
+  width: 100%;
+  height: 18px;
+}
+
+.comment-stats img {
+  padding-left: 28px;
+  display: inline;
+  position: relative;
+  top: 4px;
+}
+
+.comment-line {
+  width: 100%;
+  margin-top: 32px;
+  height: 40px;
+  display: flex;
+}
+
+.comment-line div {
+  margin-left: 17px;
+  width: 584px;
+  height: 30px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.commenter-logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.comment-field {
+  width: 584px;
+  height: 21px;
+  border: 0;
+  font-size: 14px;
+}
+
+.comment-field:focus {
+  outline: none;
+}
+
+.comment-buttons {
+  height: 36px;
+  position: relative;
+  bottom: 
+  float: right;
 }
 
 .user-comments {
