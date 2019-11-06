@@ -34,6 +34,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-family: Arial, Helvetica, sans-serif !important;
+  background-color: hsla(0, 0%, 97%, .8);
 }
 ol, ul {
 	list-style: none;
@@ -60,6 +61,7 @@ table {
   height: 58px;
   width: 100%;
   background-color: white;
+  z-index: 9999;
 }
 
 /*left header bar*/
@@ -98,6 +100,7 @@ table {
   height: 100%;
   width: 57%;
   float: left;
+  z-index:-1
 }
 
 .search-form {
@@ -137,7 +140,7 @@ table {
   background-image: url(../assets/magnifying-glass-2.png)
 }
 
-/*right side*/
+/*right side of search bar*/
 
 .right-header-buttons {
   height: 100%;
@@ -195,22 +198,6 @@ table {
 }
 
 
-.channel-info {
-  margin-left: 24px;
-  padding-top: 23px;
-  width: 641px;
-  height: 38px;
-
-}
-
-.channel-text {
-  margin-left: 24px;
-  padding-top: 25px;
-  width: 641px;
-  height: 99px;
-
-}
-
 .video-details h1 {
   font-size: 18px;
   vertical-align: -40px;
@@ -229,6 +216,77 @@ table {
   height: 38px;
   position: relative;
   top: 19px;
+}
+
+
+.channel-info {
+  margin-left: 24px;
+  padding-top: 23px;
+  width: 641px;
+  height: 38px;
+  display: flex;
+
+}
+
+.channel-info img {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  vertical-align: bottom;
+  position: relative;
+  bottom: 10px;
+}
+
+.namesubscrip {
+  height: 100%;
+  width: 450px;
+  padding-left: 16px;
+  padding-right: 18px;
+}
+
+.namesubscrip p {
+  font-size: 15px;
+}
+
+#subscribers {
+  font-size: 13px;
+  color: #888888;
+  margin-top: 2px;
+}
+
+.subscripbutt {
+  height: 100%;
+  width: 106px;
+  background-color: rgb(204, 0, 0);
+  border-radius: 5%;
+  color: white;
+  font-size: 13px;
+}
+
+.channel-text {
+  margin-left: 24px;
+  padding-top: 16px;
+  width: 575px;
+  height: 107px;
+  padding-left: 66px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.channel-text p {
+  line-height: 1.4;
+  font-size: 14.5px;
+}
+
+.channel-text a {
+  font-size: 14.5px;
+  text-decoration: none;
+}
+
+.channel-text span {
+  font-size: 12px;
+  color: #888888;
+  position: relative;
+  top: 5px;
 }
 
 /*comment section*/
